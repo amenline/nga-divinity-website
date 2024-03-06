@@ -12,13 +12,14 @@ const config: Config = {
         xs: "480px",
       },
       colors: {
-        smp: {
-          primary: "#CC9A00",
-          adjacent: "#bc8f03",
-          grad1: "#CC7300",
-          grad2: "#CC9000",
-          secondary: "#5F3D00",
-          gray: "#f2f4f5",
+        nda: {
+          texts: "#343434",
+          primary: "#2c7ba7",
+          secondary: "#11dcd0",
+          gray: "#d9d9d9",
+          adjacent: "#0cc1b6",
+          bg1: "#f1f1f1",
+          bg2: "#f9fdff",
         },
       },
       fontFamily: {

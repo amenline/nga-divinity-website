@@ -18,7 +18,7 @@ const navs = [
     id: "001",
   },
   {
-    title: "About us",
+    title: "About Us",
     path: "/about",
     id: "002",
   },
@@ -40,9 +40,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <div className="drawer">
+    <html lang="en" className="dark">
+      <body className={`${inter.className} bg-nda-bg1`}>
+        <div className="drawer drawer-end">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col">
             {/* <!-- Navbar --> */}
